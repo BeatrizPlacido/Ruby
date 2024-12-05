@@ -8,8 +8,8 @@
 # %r{abcd}
 # # irb(main):002:0> %r{abcd}.class
 # => Regexp
-# 
-# ex3: 
+#
+# ex3:
 # Regexp.new('abcd')
 # irb(main):006:0> Regexp.new('abcd').class
 # => Regexp
@@ -33,14 +33,14 @@
 # Método match (sintaxe -----> variavel = /regex/.metodo(parametro))
 # phrase = "Hellow, how are you?"
 #
-# ex1: 
+# ex1:
 # irb(main):011:0> match_data = /how/.match(phrase)
 # => #<MatchData "how">
 #
-# ex2: 
+# ex2:
 # irb(main):012:0> match_data = /are/.match(phrase)
 # => #<MatchData "are">
-# 
+#
 # ex3:
 # irb(main):013:0> match_data.pre_match
 # => "Hellow, how "
@@ -52,11 +52,11 @@
 
 # Character classes
 # operador '[]'
-# ex1: 
+# ex1:
 # irb(main):015:0> /[t]exto/.match ("texto começando com 't'")
 # => #<MatchData "texto">
-# 
-# ex2: 
+#
+# ex2:
 # irb(main):017:0> /[1-5]/.match('123')
 # => #<MatchData "1">
 
